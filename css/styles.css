@@ -80,6 +80,10 @@ select {
     font-size: 0.9em;
 }
 
+#zip {
+    width: 50%;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
     margin: 0 4px 8px 0;
@@ -136,6 +140,11 @@ button {
       margin-bottom: 0;
   }
 
+  form {
+      background-color: whitesmoke;
+  }
+
+
   @media (min-width: 768px) {
     .intro {
         max-width: 600px;
@@ -156,6 +165,10 @@ button {
     .contact input,
     .contact select {
         width: 75%;
+    }
+
+    #zip {
+        width: 25%;
     }
 
     .contact label {
